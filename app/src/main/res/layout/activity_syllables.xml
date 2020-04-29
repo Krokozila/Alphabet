@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="7dp"
+    android:scrollbars="none" >
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButtonMA"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/back"
+            android:scaleType="fitXY"
+            android:src="@drawable/ma"
+            android:tint="#21FDF6F6" />
+
+        <ImageButton
+            android:id="@+id/imageButtonFA"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/back"
+            android:scaleType="fitXY"
+            android:src="@drawable/fa"
+            android:tint="#21FDF6F6" />
+
+        <ImageButton
+            android:id="@+id/imageButtonNU"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/back"
+            android:scaleType="fitXY"
+            android:src="@drawable/nu"
+            android:tint="#21FDF6F6" />
+
+            <ImageButton
+                android:id="@+id/imageButtonHO"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/back"
+                android:scaleType="fitXY"
+                android:src="@drawable/ho"
+                android:tint="#21FDF6F6" />
+
+            <ImageButton
+                android:id="@+id/imageButtonLU"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/back"
+                android:scaleType="fitXY"
+                android:src="@drawable/lu"
+                android:tint="#21FDF6F6" />
+
+            <ImageButton
+                android:id="@+id/imageButtonTE"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/back"
+                android:scaleType="fitXY"
+                android:src="@drawable/te"
+                android:tint="#21FDF6F6" />
+            <ImageButton
+                android:id="@+id/imageButtonBI"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/back"
+                android:scaleType="fitXY"
+                android:src="@drawable/bi"
+                android:tint="#21FDF6F6" />
+
+            <ImageButton
+                android:id="@+id/imageButtonKYA"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/back"
+                android:scaleType="fitXY"
+                android:src="@drawable/kya"
+                android:tint="#21FDF6F6" />
+
+            <Button
+                android:id="@+id/buttonLetters"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#66FF5A"
+                android:text="Буквы" />
+    </TableLayout>
+</ScrollView>

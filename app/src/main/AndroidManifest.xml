@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alphabet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/talkingo"
+        android:label="Говорящий Алфавит"
+        android:roundIcon="@mipmap/talkingo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity1"></activity>
+        <activity android:name=".Activity2"></activity>
+        <activity android:name=".Activity3"></activity>
+        <activity android:name=".Activity4"></activity>
+        <activity android:name=".Activity5"></activity>
+        <activity android:name=".Activity6"></activity>
+        <activity android:name=".Activity7"></activity>
+        <activity android:name=".Activity8"></activity>
+        <activity android:name=".Activity9"></activity>
+        <activity android:name=".Activity10"></activity>
+        <activity android:name=".Activity11"></activity>
+        <activity android:name=".Activity12"></activity>
+        <activity android:name=".Activity13">
+        </activity>
+        <activity android:name=".Activity14">
+        </activity>
+        <activity android:name=".Activity15">
+        </activity>
+        <activity android:name=".Activity16">
+        </activity>
+        <activity android:name=".Activity17">
+        </activity>
+        <activity android:name=".Activity18">
+        </activity>
+        <activity android:name=".Activity19">
+        </activity>
+        <activity android:name=".Activity20">
+        </activity>
+        <activity android:name=".Activity21">
+        </activity>
+        <activity android:name=".Activity22">
+        </activity>
+        <activity android:name=".Activity23">
+        </activity>
+        <activity android:name=".Activity24">
+        </activity>
+        <activity android:name=".Activity25">
+        </activity>
+        <activity android:name=".Activity26">
+        </activity>
+        <activity android:name=".Activity27">
+        </activity>
+        <activity android:name=".Activity28">
+        </activity>
+        <activity android:name=".Activity29">
+        </activity>
+        <activity android:name=".Activity30">
+        </activity>
+        <activity android:name=".Activity31">
+        </activity>
+        <activity android:name=".Activity32"></activity>
+        <activity android:name=".ActivitySyllables"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_letter26"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="match_parent"
+        android:layout_height="482dp"
+        android:src="@drawable/full26" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/button26"
+            android:layout_width="110dp"
+            android:layout_height="56dp"
+            android:background="@drawable/back"
+            android:src="@android:drawable/ic_media_rew"
+            android:tint="#FFC107" />
+
+        <Button
+            android:id="@+id/buttonLetters26"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:background="@drawable/back"
+            android:text="Буквы" />
+
+        <Button
+            android:id="@+id/buttonSyllables26"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:background="@drawable/back"
+            android:text="Слоги" />
+
+        <ImageButton
+            android:id="@+id/buttonNextLetter26"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/back"
+            android:src="@android:drawable/ic_media_ff"
+            android:tint="#FFC107" />
+    </TableRow>
+
+</LinearLayout>
